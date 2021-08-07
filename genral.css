@@ -1,0 +1,82 @@
+.fix {
+    position: fixed;
+    right: 0;
+    margin: 20px 20px 0px 0px;
+    z-index: 99;
+}
+.myside {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.minilogo {
+    display: none;
+}
+.openit {
+ font-size:30px; 
+ cursor:pointer;
+ color: #fff;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color:#c93e3a;
+    overflow-x: hidden;
+    transition: 0.9s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+ color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media only screen and (max-width: 759px) {
+    .myside {
+        width: 100%;
+        background-color: #fff;
+        height: 60px;
+        border-top: 2px solid #c93e3a;
+        border-bottom: 2px solid #c93e3a;
+        position: fixed;
+        top:0;  
+        z-index: 99;
+        padding: 0;
+        margin-top: 0px;
+       
+    }
+    .minilogo {
+        display: block;
+        height: 28px;
+        margin: 30px;
+        position: fixed;
+        z-index: 99;
+    }
+    .openit {
+        font-size:30px; 
+        cursor:pointer;
+        color: #000;
+    }
+}       

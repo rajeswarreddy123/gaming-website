@@ -1,0 +1,190 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+.container{
+    background-image: url(http://www.realtimegaming.com/wp-content/uploads/2016/09/games.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.logo img {    
+    height: 28px;
+    margin: 30px;
+    position: fixed;
+    z-index: 99;
+}
+.game {
+    display: flex;
+  height: 250px;
+ align-items:flex-end;
+ justify-content: center;
+ color: #c93e3a;
+ background: linear-gradient(to bottom right,#c93e3a,#e79f58);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size: 44px;
+ font-family: 'Roboto Condensed', sans-serif;
+ font-weight: bold;
+ line-height: 70px;
+    
+}
+.navbar {
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    counter-reset: #676767;
+    background-color: #252525;    
+    font-family: 'Roboto';
+    padding: 0px;
+    margin: 0px 0px;
+}
+.nav-link {
+    color: #EEEEEE;
+    font-size: 16px;
+    font-family: "Open Sans"; 
+    font-weight: 300;
+    padding: 0px 27px;
+    margin-top: 19px;
+}
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: flex-end;
+    top:10%;
+    left:75%;
+   list-style: none;
+     padding: 10px; 
+     
+}
+.nav-item {
+    color: #fff;
+    font-size: 14px;
+    margin-top: -10px;
+}
+.nav li a {    
+    color: #999;
+    padding: 10px;
+    margin-left:  7px;   
+    text-decoration: none;
+}
+.nav li a:hover {
+    color: #c93e3a;
+}
+.slot-games {
+    display: flex;
+}
+.slot-games1, .slot-games2, .slot-games3 {
+   display: none;
+}
+.game-img{
+    width: 25%;
+}
+.navbar-nav1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+}
+.nav-link1 {
+    text-decoration: none;
+    color: #5B5B5B;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.nav-item1 {
+    list-style: none;
+}
+.active:visited {
+   color: #c93e3a; 
+}
+@media only screen and (min-width:998px) and (max-width: 1200px) {
+    .game {
+        height: 550px;
+        align-items:flex-end;
+    }
+    .slot-games, .slot-games2, .slot-games3{
+     display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .slot-games1 {
+        display: flex;
+    }
+    .game-img1 {
+        width: 25%;
+    }
+}
+@media only screen and (min-width:760px) and (max-width: 997px) {
+    .game {
+        height: 350px;
+        align-items:flex-end;
+    }
+    .slot-games{
+     display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .slot-games1 {
+        display: none;
+    }
+    .slot-games2, .slot-games3 {
+        display: flex;
+        margin-top:-16px;
+    
+    }
+    .game-img2, .game-img3 {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 759px) {
+    .game {
+        font-size: 28px;
+        height: 350px;
+        align-items:flex-end;
+    }
+    .logo img {    
+        height: 25px;
+        margin: 20px;
+        position: fixed;
+        z-index: 99;
+    }
+    .slot-games{
+        display: none;
+       }
+       .navbar {
+           display: none;
+       }
+       .slot-games1 {
+           display: none;
+       }
+       .slot-games2, .slot-games3 {
+           display:block;
+       }
+       .game-img2, .game-img3 {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+       }
+       .game-over {
+           margin-top: -5px;
+       }
+    .navbar-nav1 {
+        display: block;
+        line-height: 100px;
+        font-size: 16px;
+        height: 300px;
+        margin-bottom: 10rem;
+    }
+}

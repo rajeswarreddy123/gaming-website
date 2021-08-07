@@ -1,0 +1,462 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.container{
+    background-image: url(http://www.realtimegaming.com/wp-content/uploads/2016/09/games.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.minilogo  {
+    display: none;
+}
+.logo img {    
+    height: 28px;
+    margin: 30px;
+    position: fixed;
+    z-index: 99;
+}
+.game {
+    display: flex;
+  height: 600px;
+ align-items:center;
+ justify-content: center;
+ color: #c93e3a;
+ background: linear-gradient(to bottom right,#c93e3a,#e79f58);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size: 44px;
+ font-family: 'Roboto Condensed', sans-serif;
+ font-weight: bold;
+ line-height: 70px;
+    
+}
+.overlay {
+    position: relative;  
+    color:#fff;
+    font-family: 'Roboto';
+}
+.realtime {
+    width: 100%;
+}
+.realtime1 {
+    display: none;
+}
+.our, .exclusive {
+    position: absolute;
+    top: 22%;
+    left: 52%;
+    font-size: 44px;
+     font-weight: 100;
+     color: #c93e3a;
+     background: linear-gradient(to bottom right,#c93e3a,#e79f58);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.features {
+    position: absolute;
+    top: 35%;
+    left: 56%;
+    width: 50%;
+    font-size: 16px;
+}
+.text {
+    margin-left:-50px;
+     margin-top: 50px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    width: 82%;
+}
+.overlay1 {
+    position: relative; 
+    margin-top: -4px;
+    color:#fff;
+    font-family: 'Roboto';
+}
+.Awesome, .live {
+    position: absolute;
+    top:34%;
+    left: 8%;
+    font-size: 44px;
+    font-weight: 100;
+}
+.offers, .Vegas {
+    position: absolute;
+    top: 47%;
+    left: 8%;
+    width: 42%;
+    font-size: 16px; 
+    line-height: 25px;  
+}
+.btn {
+    background: linear-gradient(90deg,#c93e3a 0%,#ea9359 100%);
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 9px 33px;
+}
+.overlay2 {
+    position: relative; 
+    margin-top: -4px; 
+    color:#fff;
+    font-family: 'Roboto';
+}
+.jackpot, .addition {
+    position: absolute;
+    top: 37%;
+    left: 53%;
+}
+.text-form {
+    width: 89%;
+    line-height: 25px;
+}
+.Boiling, .Intelligence {
+    background: #18171a;
+    color: #fff;
+    height: 100vh;
+    margin-top: -4px;
+    font-family: 'Roboto';
+}
+.Progressive, .Mastering {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.Pyramid {
+    width: 41%;
+}
+.dreams, .quickly  {
+   font-size: 44px;
+   font-weight: 100;
+   color: #c93e3a;
+     background: linear-gradient(to bottom right,#c93e3a,#e79f58);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.Point {
+    font-size: 16px;
+    line-height: 25px;
+}
+.insight img {
+    width: 78%;
+    margin-left: 80px;
+}
+.caribbean {
+    display: none;
+}
+.provides {
+    width: 59%;
+    position: relative;
+    top:-2%;
+    left: -7%;
+}
+.quickly {
+    width: 76%;
+}
+.introduced {
+    margin-top: -20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #5B5B5B;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.nav-item {
+    list-style: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        margin-top: -11.5rem;
+    }
+    .game {
+        font-size: 34px;
+        height: 700px;
+        align-items:flex-end;
+    }
+    .overlay, .overlay2 {
+        background-color: #18171a;
+        height: 100vh;
+    }
+    .overlay{
+        margin-top: -11.5rem;
+    }
+    .our {
+        position: absolute;
+        top: 16%;
+        left: 15%;
+    }
+    
+    .realtime {
+        display: none;
+    }
+   
+    .features {
+        position: absolute;
+        top: 27%;
+        left: 19%;
+        width:81%;
+        display: block;
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+    .overlay1 {
+        background-color: #c93e3a;
+        height: 100vh;
+    }
+    .Awesome, .live {
+        position: absolute;
+        top:25%;
+        left: 18%;
+    }
+    .offers, .Vegas {
+        position: absolute;
+        top:39%;
+        left: 18%;
+        width: 65%; 
+    }
+    .btn {
+        background: #c93e3a;
+        color: #fff
+    }
+    .exclusive {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+    .jackpot, .addition {
+        position: absolute;
+        top: 37%;
+        left: 15%;
+    }
+    .text-form {
+        width: 73%;
+        line-height: 25px;
+    }
+    .Progressive, .Mastering {
+        display: block;
+        margin-left: 10rem;
+    }
+    .Mastering {
+        display: flex;
+        height: 800px;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .Pyramid {
+        width: 80%;
+    }
+    .Intelligence {
+        margin-top: -44px;
+    }
+    .insight img, .caribbean {
+        display: none;
+    }
+    .provides {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 759px) {
+    .game {
+        font-size: 25px;
+        height: 370px;  
+        align-items: flex-end;     
+       justify-content: start;
+       line-height: 45px;
+       margin-left: -10px;
+    }
+    .logo img {    
+        height: 25px;
+        margin: 20px;
+    }
+    .take {
+      margin-left: 50px;
+      text-align: center;
+      font-size: 57px;
+    }
+    .overlay, .overlay2 {
+        background-color: #18171a;
+        height: 700px;
+    }
+    .our {
+        position: absolute;
+        top: 2%;
+        left: 18%;
+    }
+    .realtime1 {
+      display: flex;
+      width: 90%;
+      margin-left: 14px;       
+    }
+    .realtime {
+        display: none;
+    }
+    .suites {
+        display: flex;
+        height: 260px;
+        align-items: flex-end;
+    }
+    .features {
+        position: absolute;
+        width: 87%;
+        top: 38%;
+        left: 3%;
+    }
+    .text {
+        margin-left:13px;
+         margin-top: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .overlay1 {
+        background-color: #c93e3a;
+        height: 100vh;
+    }
+    .goldcoin {
+        display: flex;
+        height: 320px;
+        align-items: flex-end;
+    }
+    .dealers {
+        display: flex;
+        height: 280px;
+        align-items: flex-end; 
+    }
+    .Awesome {
+        position: absolute;
+        top:6%;
+        left: 8%;
+        font-size: 35px;
+    }
+    .live {
+        position: absolute;
+        top:6%;
+        left: 24%;
+        text-align: center;
+        font-size: 35px;
+    }
+    .offers {
+        position: absolute;
+        top:49%;
+        left:12%;
+        width: 80%; 
+    }
+    .Vegas {
+        left:5%;
+        width: 90%; 
+        text-align: center;
+    }
+    .btn {
+        background: #c93e3a;
+       
+    }
+    .exclusive {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        font-size: 35px;
+    }
+    .ring {
+        display: flex;
+        height: 300px;
+        align-items: flex-end;
+    }
+    .jackpot {
+        position: absolute;
+        top: 44%;
+        left: 20%;
+        text-align: center;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 20px;
+    }
+    .dash {
+        display: none;
+    }
+    .creating {
+        display: flex;
+        height: 220px;
+        
+        align-items: flex-end;
+    }
+    .addition {
+        position: absolute;
+        top: 32%;
+        left: 5%;
+        width: 92%;
+        text-align: center;
+    }
+    .text-form {
+        width: 100%;
+        line-height: 25px;
+    }
+    .text-form1 {
+        width: 101%;
+        line-height: 25px;
+        margin-left: -7px;
+        padding: 0;;
+    }
+    .Progressive, .Mastering {
+        display: block;
+        margin-left: 3rem;
+    }
+    .dreams, .Point {
+        display: none;
+    }
+    .Intelligence {
+        margin-top: -45px;
+        height: 700px;
+    }
+    .insight img {
+        display: none;
+    }
+    .caribbean {
+        display: block;
+        width: 100%;
+    }
+    .provides {
+        width: 91%;
+        position: relative;
+        top:-2%;
+        left: 0%;
+    }
+    .quickly {
+        width: 90%;
+        margin-left: 10px;
+        /* font-size: 40px; */
+        text-align: center;
+    }
+    .introduced {
+        margin-top: 10px;
+        margin-left: -28px;
+        text-align: center;
+    }
+    .navbar-nav {
+        display: block;
+        line-height: 100px;
+        font-size: 16px;
+        height: 300px;
+        margin-bottom: 10rem;
+    }
+}        

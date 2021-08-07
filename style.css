@@ -1,0 +1,651 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-image: url(http://www.realtimegaming.com/wp-content/uploads/2016/09/e04c67a4f4bc491a51283480e3968c29.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 660px;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.logo img {    
+    height: 28px;
+    margin: 30px;
+    position: fixed;
+    z-index: 99;
+}
+.minilogo {
+    display: none;
+}
+.game {
+    display: flex;
+  height: 600px;
+ align-items:center;
+ justify-content: center;
+ color: #c93e3a;
+ background: linear-gradient(to bottom right,#c93e3a,#e79f58);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size: 40px;
+ font-family: 'Roboto Condensed', sans-serif;
+ font-weight: bold;
+ line-height: 70px;
+ text-align: center;
+    
+}
+/* .take {
+    margin-left: 100px;
+}
+.gaming {
+    margin-left: 52px;
+} */
+.overlay, .overlay1 {
+    position: relative;  
+    color:#fff;
+    font-family: 'Roboto';
+}
+.realtime {
+    width: 100%;
+}
+.realtime1 {
+    display: none;
+}
+.our {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    font-size: 44px;
+    font-weight: 100;
+    color: #c93e3a;
+ background: linear-gradient(to bottom right,#c93e3a,#e79f58);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.features, .administrative {
+    position: absolute;
+    top: 35%;
+    left: 56%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    font-size: 16px;
+}
+.Product1 {
+    margin-left: 50px;
+}
+.btn {
+    position: absolute;
+    top: 65%; 
+    left: 56%; 
+    padding: 9px 33px;
+    border: 1px solid #fff;
+    background: #18171a;
+    color: #fff;
+}
+.application {
+    position: relative;
+    color: #fff;
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+
+}
+.back-img {
+    width: 100%;
+    height: 100vh;
+    margin-top: -4px;
+}
+.moregames {
+    position: relative;
+    top: -9.7%;
+    left: 7%;
+    width: 60%;   
+    
+}
+.multiple {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top:0%;
+}
+.Delivery {
+    position: absolute;
+    right: -22%;
+    top: 13%;
+}
+.Channel {
+    text-transform: none;
+    font-size: 44px;
+    /* line-height: 44px; */
+    font-weight: 100;
+    
+}
+.moreapp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  
+}
+.instally {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.para {
+    font-size: 14px;
+}
+.button {
+    color: #fff;
+    background: linear-gradient(90deg,#c93e3a 0%,#ea9359 100%); 
+    border: 2px solid #fff;
+    margin: 40px 0px 0px 180px;
+    padding: 9px 33px;
+}
+.blackjack {
+    position: relative;
+    background: #18171a;
+    max-width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-top: -4px;
+    color: #fff;
+}
+.Offer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 700px;    
+    font-family: 'Roboto';
+}
+.game-img {
+    width: 80%;
+    height: 460px;
+    margin-left: -10px;
+}
+.Solutions {
+    font-size: 44px;
+    font-weight: 100;
+    color: #c93e3a;
+    font-weight: 100;
+ background: linear-gradient(to bottom right,#c93e3a,#e79f58);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent; 
+}
+.innovation {
+    margin-left: -4rem;
+    /* width: 92%; */
+}
+.approaches {
+    width: 84%;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    margin-top: -30px;
+}
+.btn1 {
+    padding: 9px 33px;
+    border: 1px solid #fff;
+    background: #18171a;
+    color: #fff;
+}
+.power {
+    position: absolute;
+    top: 20%;
+    left:53%;
+    font-size: 44px;
+    font-weight: 100;
+    color: #fff;
+}
+.lead {
+  margin-top: 70px;
+  margin-left: -30px;
+  font-size: 16px;
+  width: 95%;
+  line-height: 25px;
+}
+.btn2 {
+    position: absolute;
+    top: 67%; 
+    left: 54%; 
+    padding: 9px 33px;
+    border: 2px solid #fff;
+    background: linear-gradient(90deg,#c93e3a 0%,#ea9359 100%);
+     color: #fff;
+}
+.contactus {
+    height:100vh;
+    background: linear-gradient(90deg,#c93e3a 0%,#ea9359 100%);
+    color: #fff;
+    font-family: 'Roboto';
+    margin-top: -4px;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 700px;
+}
+.us {
+    font-size: 38px;
+    font-weight: 100;
+    margin-left: 80px;
+    width: 100%;
+}
+.inform {
+    font-size: 16px;
+    width: 56%;
+    margin-left: 150px;
+    line-height: 25px;
+}
+.btn3 {
+    width: 100%;
+    padding: 15px 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    border: 4px solid #fff;
+    background: linear-gradient(90deg,#c93e3a 0%,#ea9359 100%);
+    color: #fff;
+}
+.navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 150px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #5B5B5B;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.nav-item {
+    list-style: none;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .overlay {
+        background-color: #18171a;
+        height: 700px;
+        margin-top: -2px;
+    }
+    .our {
+        position: absolute;
+        top: 16%;
+        left: 35%;
+    }
+    
+    .realtime {
+        display: none;
+    }
+   
+    .features, .administrative {
+        position: absolute;
+        top: 33%;
+        left: 38%;
+        display: block;
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+    .Product1 {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .btn {
+        position: absolute;
+        top: 90%; 
+        left: 40%; 
+        padding: 7px 20px;
+    }
+    .application {
+        max-width: 100%;
+     
+    }
+    .back-img {
+        max-width: 100%;
+        height: 1600px;
+        margin-top: 0px;
+    }
+    .moregames {
+        position: relative;
+         top: 0%;
+        left: 14%;
+        width: 80%; 
+        height:890px;  
+        
+    }
+    .multiple {
+        display: block;
+    }
+    .Delivery {
+        position: absolute;
+        right: 7%;
+        top: 87%;
+    }
+    .mockup {
+        margin-left: 120px;
+    }
+    .Channel {
+        margin-top: 58px;
+        margin-left: 0rem; 
+        margin-right: 4rem;       
+    }
+    .moreapp {
+        display: block;
+
+    }
+    .instally {
+        display: block;       
+        
+    }
+    .para {
+        font-size: 14x;
+    }
+    .button {
+        position: relative;
+        top:0%;
+        left: 16%;
+        margin: 0;
+    }
+    .game-img {
+        display: none;
+    } 
+    .innovation {
+        margin-left: 0rem;
+    }
+    .approaches {
+      margin-left: 7rem;
+    }
+    .Solutions {
+        font-size: 44px;       
+        margin: 0px 0px 20px;
+      margin-left: 10rem;
+      
+    }
+    .total {
+        margin-left: 10rem;
+        padding: 0px 0px 20px;
+        font-size: 18px;
+        width: 75%;
+    }
+    .btn1 {
+       margin-left: 10rem;
+       padding: 10px 33px;
+    }
+    .overlay1 {
+        background-color: #c93e3a;
+        height: 700px;
+    }
+    .power {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    
+    }
+    .lead { 
+    margin-left: -11rem;
+    margin-top: 7rem;
+    width: 100%;
+    }
+    .btn2 {
+        position: absolute;
+        top: 73%; 
+        left: 16%; 
+        padding: 7px 33px;
+        background: #c93e3a;
+    }
+
+    .contactus {
+        /* height: 600px; */
+        /* background: linear-gradient(90deg,#c93e3a 0%,#ea9359 100%);
+        color: #fff;
+        font-family: 'Roboto'; */
+        margin-top: -3px;
+        display: flex;
+        align-items: center;
+    }
+    .contact {
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center;      
+        width: 80%;
+        height: 0px;
+    }
+    .us {
+        font-size: 38px;
+        font-weight: 100;
+        margin-left: 80px;
+        width: 100%;
+    }
+    .inform {
+       width:100%;
+    }
+    .btn3 {
+        width: 100%;
+        padding: 15px 34px;
+        margin-left: 20px;
+        font-size: 16px;
+        /* border: 4px solid #fff;
+        background: linear-gradient(90deg,#c93e3a 0%,#ea9359 100%);
+        color: #fff; */
+    }
+}
+@media only screen and (max-width: 759px) {
+    .game {
+        font-size: 28px;
+        height: 450px;  
+        align-items: flex-end;     
+       justify-content: center;
+       line-height: 50px;
+       /* margin-left:45px; */
+       text-align: center;
+    }
+    .logo img {    
+        height: 25px;
+        margin: 20px;
+    }
+    .overlay {
+        background-color: #18171a;
+        height: 700px;
+        margin-top: -2px;
+    }
+    .main {
+       display: flex;
+       height: 220px;
+       align-items: flex-end;   
+    }
+    .our {
+        position: absolute;
+        top: 0%;
+        left: 19%;
+        font-size: 37px;
+    }
+    .realtime1 {
+      display: block;
+      width: 90%; 
+      margin-left: 20px;      
+    }
+    .realtime {
+        display: none;
+    }
+    .features {
+        display: block;
+        position: absolute;
+        top: 32%;
+        left: 25%;
+        line-height: 12px;
+        text-align: center;
+    }
+    .Product1 {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .btn {
+        position: absolute;
+        top: 75%; 
+        left: 32%; 
+        border: 2px solid #fff;
+    }
+    .dash {
+        display: none;
+    }
+    .back-img {
+        width: 100%;
+        height: 800px;
+        margin-top: 0px;
+    }
+    .moregames {
+        left: 0;
+        width: 100%; 
+        height:auto;  
+        
+    }
+    .multiple {
+        display: block;
+    }
+    .Delivery {
+        position: absolute;
+        right: 5%;
+        top: 3%;
+    }
+    .mockup {
+        display: none;
+    }
+    .Channel {
+        font-size: 37px; 
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: flex-end;
+        height: 600px;      
+    }
+    .button {
+        position: absolute;
+        bottom: -8%;
+        left: 30%;
+        margin: 0px;
+    }
+    .blackjack {
+        height: 1000px;
+        margin-top: -5px;
+    }
+    .Offer {
+        display: block;
+      
+       
+    }
+    .innovation {
+        margin-left: 0rem;
+    }
+    .game-img {
+        width: 85%;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 14rem;
+    }
+    .approaches {
+      width: 90%;  
+      margin:0px  22px;
+      text-align: center;
+    }
+    /* .text {
+        font-size: 16px;
+        text-align: center;
+        margin-top:0px;      
+    } */
+    /* .text1 {
+        width: 100%;
+    } */
+    /* .text2 {
+        text-align: center; 
+    }  */
+    .btn1 {
+       margin-left: 100px;
+       border: 2px solid #fff;
+    }
+    .Solutions {
+        margin: 0;
+         text-align: center;
+        width:50%;
+        position: absolute;
+        top: 5%;
+        left: 24%;
+     }
+     .administrative {
+         left: 0;
+     }
+    .power {       
+        top: 0%;
+        left: 0%;
+        font-size: 34px;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+    }
+    .lead {
+      margin: 0px 10px;
+      font-size: 16px;
+      justify-content: center;
+      text-align: center;
+      max-width: 100%;     
+    }
+    .btn2 {
+        top: 77%; 
+        left: 30%; 
+        background: #c93e3a;
+        border: 2px solid #fff;
+    }
+    .overlay1 {
+        background-color:#c93e3a;
+        height: 100vh;
+        margin-top: -70px;
+    }
+    /* .powerful {
+        margin-top: 70px;
+    } */
+    .access {
+        display: flex;
+        height: 320px;
+       align-items: center;
+    }
+    .contactus {
+        height:100vh;
+        display: flex;
+        flex-wrap: wrap;        
+    }
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        height: 0px;
+    }
+    .inform {
+        font-size: 16px;
+        width: 100%;
+        margin:0px 0px 0px 50px;
+        justify-content: center;
+    }
+    .btn3 {
+        margin-left: 0px;
+        margin-top: 20px; 
+        border: 2px solid #fff;      
+    } 
+    .total {
+        margin-top: 120px;
+    } 
+    .navbar-nav {
+        display: block;
+        line-height: 100px;       
+        margin-bottom: 10rem;
+    }
+}

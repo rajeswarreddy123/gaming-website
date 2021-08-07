@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: flex-end;
+    top:10%;
+    left:67%;
+   list-style: none;
+     padding: 10px; 
+     
+}
